@@ -1,0 +1,246 @@
+:root {
+
+    --main: calc(100vh - 3.6rem);
+
+    --vp-small: (min-width: 576px);
+    --vp-medium: (min-width: 768px);
+    --vp-large: (min-width: 992px);
+    --vp-el: (min-width: 1200px);
+
+}
+
+::selection {
+
+    -moz-text-fill-color: #ff0;
+    -webkit-text-fill-color: #ff0;
+
+}
+
+main {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: var(--main);
+}
+
+/* span {
+
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+        -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #000000;
+        -moz-text-stroke-width: 1.6px;
+    -webkit-text-stroke-width: 1.6px;
+
+} */
+
+.logo {
+    /* -webkit-text-stroke: 2px #ffffff;
+    text-shadow: 4px 3.6px 0 #a0a0a0; */
+    font-size: 15.6rem;
+
+    /* color: #000000; */
+    text-align: center;
+
+    font-style: italic;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+        -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #000000;
+        -moz-text-stroke-width: 1.6px;
+    -webkit-text-stroke-width: 1.6px;
+    font-family: 'Familiar Pro', sans-serif;
+}
+
+/* .guzman span {
+
+    font-size: 1.3em;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    font-family: 'Familiar Pro', sans-serif;
+
+} */
+
+/* MAIN YELLOW HIGHLIGHT */
+/* .logo:hover { -webkit-text-fill-color: #cccccc; } */
+
+@media (max-width: 688px) {
+    html {
+        -webkit-tap-highlight-color: #ff0;
+    }
+
+    ::selection {
+
+        -moz-text-fill-color: #ff0;
+        -webkit-text-fill-color: #ff0;
+
+    }
+
+    main {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: var(--main);
+    }
+
+    .logo {
+        /* -webkit-text-stroke: 2px #ffffff;
+        text-shadow: 4px 4px 0 #a0a0a0; */
+        font-size: 4.3rem;
+
+        font-style: normal;
+        color: #000000;
+        text-align: center;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+            -moz-text-stroke-color: #000000;
+        -webkit-text-stroke-color: #000000;
+            -moz-text-stroke-width: 1.6px;
+        -webkit-text-stroke-width: 1.6px;
+        font-family: 'Familiar Pro', sans-serif;
+    }
+
+    /* .logo:active { -webkit-text-fill-color: #cccccc; } */
+}
+
+@media (max-width: 576px) {
+    /* html {
+        -webkit-tap-highlight-color: #ff0;
+    } */
+
+    ::selection {
+        -moz-text-fill-color: #ff0;
+        -webkit-text-fill-color: #ff0;
+        /* -webkit-tap-highlight-color: transparent; */
+    }
+
+    main {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: var(--main);
+    }
+
+    .logo {
+        /* -webkit-tap-highlight-color: transparent; */
+        font-size: 4.3rem;
+
+        font-style: normal;
+        color: #000000;
+        text-align: center;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+            -moz-text-stroke-color: #000000;
+        -webkit-text-stroke-color: #000000;
+            -moz-text-stroke-width: 1.6px;
+        -webkit-text-stroke-width: 1.6px;
+        font-family: 'Familiar Pro', sans-serif;
+    }
+
+    /* MAIN ACTIVE YELLOW HIGHLIGHT */
+    .logo:active { -webkit-text-fill-color: #cccccc; }
+}
+
+@media (max-width: 768px) {
+    /* html {
+        -webkit-tap-highlight-color: #ff0;
+    } */
+
+    ::selection {
+        -moz-text-fill-color: #ff0;
+        -webkit-text-fill-color: #ff0;
+        /* -webkit-tap-highlight-color: #ff0; */
+    }
+
+    main {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: var(--main);
+    }
+
+    .logo {
+        font-size: 4.3rem;
+
+        font-style: normal;
+        color: #000000;
+        text-align: center;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+            -moz-text-stroke-color: #000000;
+        -webkit-text-stroke-color: #000000;
+            -moz-text-stroke-width: 1.6px;
+        -webkit-text-stroke-width: 1.6px;
+        font-family: 'Familiar Pro', sans-serif;
+    }
+
+    .logo:active { -webkit-text-fill-color: #cccccc; }
+}
+
+@media (max-width: 992px) {
+    /* html {
+        -webkit-tap-highlight-color: #ff0;
+    } */
+
+    ::selection {
+        -moz-text-fill-color: #ff0;
+        -webkit-text-fill-color: #ff0;
+        /* -webkit-tap-highlight-color: #ff0; */
+    }
+
+    main {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: var(--main);
+    }
+
+    .logo {
+        font-size: 4.3rem;
+
+        font-style: normal;
+        color: #000000;
+        text-align: center;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+            -moz-text-stroke-color: #000000;
+        -webkit-text-stroke-color: #000000;
+            -moz-text-stroke-width: 1.6px;
+        -webkit-text-stroke-width: 1.6px;
+        font-family: 'Familiar Pro', sans-serif;
+    }
+
+    /* .logo:active { -webkit-text-fill-color: #cccccc; } */
+}
+
+@media (min-width: 1200px) {
+    /* html {
+        -webkit-tap-highlight-color: #ff0;
+    } */
+
+    ::selection {
+        -moz-text-fill-color: #ff0;
+        -webkit-text-fill-color: #ff0;
+        /* -webkit-tap-highlight-color: #ff0; */
+    }
+
+    main {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        height: var(--main);
+    }
+
+    .logo {
+        font-size: 4.3rem;
+
+        font-style: normal;
+        color: #000000;
+        text-align: center;
+        -moz-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+            -moz-text-stroke-color: #000000;
+        -webkit-text-stroke-color: #000000;
+            -moz-text-stroke-width: 1.6px;
+        -webkit-text-stroke-width: 1.6px;
+        font-family: 'Familiar Pro', sans-serif;
+    }
+
+    /* .logo:active { -webkit-text-fill-color: #cccccc; } */
+}

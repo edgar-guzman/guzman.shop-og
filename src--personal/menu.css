@@ -1,0 +1,220 @@
+/* https://www.youtube.com/watch?v=PwWHL3RyQgk */
+/* Modded/Tweaks by Edgar Guzman */
+
+:root {
+
+  --menu: 3.6rem;
+  scroll-padding-top: calc(var(--menu) + 10px);
+
+}
+
+*,
+*::after,
+*::before {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: inherit;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+
+  header {
+
+    display: flex;
+    overflow: hidden;
+    /* padding: 30px; */
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    align-items: center;
+    height: var(--menu);
+    /* background-color: #24252a; */
+    justify-content: space-around;
+    /* border-bottom: 1px solid #000000; */
+
+  }
+  
+  .logo { cursor: pointer; }
+
+  .guzman span {
+
+    font-size: 1.3em;
+    color: #000000;
+    text-align: center;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+        -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #000000;
+        -moz-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
+    font-family: 'Familiar Pro', sans-serif;
+
+}
+
+.guzman span:hover { -webkit-text-fill-color: #cccccc; }
+
+.active-text { font-weight: bold; }
+  
+  .nav__links a,
+  .cta,
+  .overlay__content a {
+    /* font-family: "Montserrat", sans-serif; */
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #cccccc;
+  }
+  
+  .cta {
+    cursor: pointer;
+    color: #000000;
+    /* padding: 9px 25px; */
+    font-weight: bold;
+    border-radius: 2px;
+    padding: .6rem 1rem;
+    /* border-radius: 50px; */
+    border: 1px solid #000000;
+    /* background-color: rgba(0, 136, 169, 1); */
+    transition: background-color 0.3s ease 0s;
+
+    /* -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+        -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #000000;
+        -moz-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px; */
+  }
+  
+  .cta:hover {
+    background-color: #cccccc;
+    /* background-color: rgba(0, 136, 169, 0.8); */
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    top: 0;
+    left: 0;
+    width: 0;
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    /* opacity: 0.50; */
+    padding: 15px;
+    display: block;
+    font-size: 36px;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+
+    color: #cccccc;
+
+  }
+  .overlay .close {
+    top: 20px;
+    right: 45px;
+    cursor: pointer;
+    font-size: 60px;
+    color: #000000;
+    position: absolute;
+  }
+  
+  @media (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+        top: 15px;
+        right: 35px;
+      font-size: 40px;
+      /* border-radius: .2em; */
+      /* border: 1px solid #000000; */
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .nav__links,
+    .cta {
+      display: none;
+    }
+
+    .guzman span {
+      margin-left: 20px;
+    }
+
+    .menu {
+      /* width: 50%; */
+      /* border: none; */
+      display: initial;
+      /* height: var(--menu); */
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* .menu:hover {
+      border: 1px solid;
+    } */
+  }
+
+.cta-text {
+
+  color: #000000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000000;
+  font-family: 'Familiar Pro', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+hr.overlay--hr {
+
+    width: 50%;
+    border-radius: .2em;
+    border: 1px solid #000000;
+
+}

@@ -1,0 +1,74 @@
+@import url("/src--personal/menu.css");
+:root {
+  --main: calc(100vh - 3.6rem);
+}
+
+img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: var(--main);
+}
+
+.grid-card {
+  gap: .1em;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  overflow: hidden;
+  height: var(--main);
+  -ms-grid-columns: (minmax(540px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+}
+
+.grid-card__item {
+  overflow: hidden;
+  height: var(--main);
+}
+
+.grid-card__item__picture {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: var(--main);
+}
+
+@media (max-width: 46rem) {
+  :root {
+    scroll-padding-top: var(--menu);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  img {
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: var(--main);
+  }
+  .grid-card {
+    gap: .1em;
+    width: 100%;
+    height: 100%;
+    display: -ms-grid;
+    display: grid;
+    overflow-y: scroll;
+    height: var(--main);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-columns: (minmax(540px, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+  }
+  .grid-card__item {
+    height: var(--main);
+  }
+  .grid-card__item__picture {
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: var(--main);
+  }
+}
+/*# sourceMappingURL=bem--card.css.map */

@@ -1,0 +1,28 @@
+:root {
+
+    --main: calc(100vh - 3.6rem);
+    /* height: calc(100vh - 3.6rem); */
+
+    /* --breakpoint: */
+    --phone: 688px;
+    --tablet: 992px;
+    --md-desktop: 567px;
+    --lg-desktop: 1312px;
+
+}
+
+html {
+    overflow: hidden;
+}
+
+main {
+    // width: 50vw;
+    height: var(--main);
+    // border: 1px solid var(--black);
+    font-size: clamp(1rem, 5vw, 3rem);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

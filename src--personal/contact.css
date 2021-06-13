@@ -1,0 +1,32 @@
+:root {
+  --main: calc(100vh - 3.6rem);
+  /* height: calc(100vh - 3.6rem); */
+  /* --breakpoint: */
+  --phone: 688px;
+  --tablet: 992px;
+  --md-desktop: 567px;
+  --lg-desktop: 1312px;
+}
+
+html {
+  overflow: hidden;
+}
+
+main {
+  height: var(--main);
+  font-size: clamp(1rem, 5vw, 3rem);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=contact.css.map */

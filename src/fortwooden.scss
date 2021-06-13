@@ -1,0 +1,30 @@
+// * Edgar Guzman
+// * fortwooden V1 (https://github.com/edgar-guzman/fortwooden)
+// * Licensed under MIT (https://github.com/edgar-guzman/fortwooden/blob/main/LICENSE)
+
+// @import '';
+
+@import
+    'fortwooden/main',
+    'fortwooden/basic';
+
+@import
+    'components/FAQs',
+    'components/form',
+    'components/card',
+    'components/table',
+    'components/header',
+    'components/button',
+    'components/notification';
+
+@import
+    'keyword/font',
+    'keyword/color',
+    'keyword/image',
+    'keyword/width',
+    'keyword/border',
+    'keyword/height',
+    'keyword/radius',
+    'keyword/margin',
+    'keyword/padding',
+    'keyword/display';

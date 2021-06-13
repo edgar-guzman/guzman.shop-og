@@ -1,0 +1,247 @@
+@charset 'utf-8';
+
+/* html { font-size: 62.5%; } */
+
+img { max-width: 100%; }
+
+*,
+*::before,
+*::after {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+/* .container {
+
+    margin: 0 auto;
+    max-width: 114rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+} */
+
+.mar-50 { margin-top: 6rem; }
+
+/* @media (max-width: 1200px) {
+    .container {
+      margin-left: 1rem;
+      margin-right: 1rem;
+     }
+} */
+
+/* header {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    margin-bottom: 50%;
+    background-color: #ffffff;
+
+} */
+
+/* .navigation--arena {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} */
+
+/* .hamburger { display: none; } */
+
+/* .navigation {
+
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+} */
+
+/* .guzman span {
+
+    font-size: 2em;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    font-family: "Familiar Pro", sans-serif;
+
+} */
+
+/* .guzman span:hover { -webkit-text-fill-color: #cccccc; } */
+
+/* .nav-list {
+
+    display: flex;
+    align-items: center;
+
+} */
+
+/* .nav-item:not(:last-child) {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+} */
+
+/* .nav-link {
+
+    font-size: 1rem;
+    color: #000000;
+
+} */
+
+/* .active-text { font-weight: bold; } */
+
+/* @media (max-width: 768px) {
+    .menu {
+        top: 0;
+        width: 55%;
+        left: -100%;
+        height: 100%;
+        z-index: 1000;
+        position: fixed;
+        background-color: #ffffff;
+        transition: 500ms ease-in-out;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu.show { left: 0; }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+    }
+
+    .hamburger img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .nav-list {
+        padding: 3rem 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .nav-link { font-weight: 500; }
+
+    .active-text { font-weight: bold; }
+} */
+
+/* hsiyuahdisa */
+
+header {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  /* margin-bottom: 50%; */
+  background-color: #cccccc;
+
+}
+
+.navigation--arena { margin-bottom: 6rem; }
+
+.hamburger { display: none; }
+
+.navigation {
+
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.guzman span {
+
+    font-size: 1.6em;
+    color: #000000;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #000000;
+    font-family: "Familiar Pro", sans-serif;
+
+}
+
+.guzman span:hover { -webkit-text-fill-color: #cccccc; }
+
+.nav-list {
+
+    display: flex;
+    color: #000000;
+    align-items: center;
+
+}
+
+.nav-item:not(:last-child) {
+  padding-right: 0.6rem;
+}
+
+.nav-link {
+
+  font-size: 1rem;
+  color: #000000;
+
+}
+
+.active-text { font-weight: bold; }
+
+@media (max-width: 768px) {
+  .menu {
+      top: 0;
+      width: 55%;
+      left: -100%;
+      height: 100%;
+      z-index: 1000;
+      position: fixed;
+      background-color: #ffffff;
+      transition: 500ms ease-in-out;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu.show { left: 0; }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+      transform: scaleX(-1);
+      -webkit-transform: scaleX(-1);
+  }
+
+  .hamburger img {
+      width: 3rem;
+      height: 3rem;
+  }
+
+  .nav-list {
+      padding: 3rem 0;
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-item:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 2rem;
+  }
+
+  .nav-link { font-weight: 500; }
+
+  .active-text { font-weight: bold; }
+}
